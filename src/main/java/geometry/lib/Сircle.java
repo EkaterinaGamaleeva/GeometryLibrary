@@ -5,6 +5,10 @@ import geometry.lib.Figure;
 public class Сircle implements Figure {
     private int r;
 
+    public int getR() {
+        return r;
+    }
+
     public Сircle(int r) {
         this.r = r;
     }

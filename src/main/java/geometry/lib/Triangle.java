@@ -15,10 +15,25 @@ public class Triangle implements Figure {
         this.h = h;
     }
 
+    public int getA() {
+        return a;
+    }
+
+    public int getB() {
+        return b;
+    }
+
+    public int getC() {
+        return c;
+    }
+
+    public int getH() {
+        return h;
+    }
+
     @Override
     public int area() {
-
-        return 1/2*(a*h);
+        return (int) (0.5*a*h);
     }
 
     @Override
